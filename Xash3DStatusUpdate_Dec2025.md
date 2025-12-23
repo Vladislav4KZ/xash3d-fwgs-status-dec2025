@@ -47,7 +47,7 @@ Also does the Russian localization of text, images (gfx/shell), as well as addit
 
 by [**a1batross**](https://github.com/a1batross)
 
-Xash3D FWGS now includes FFmpeg support, replacing the old Video for Windows backend. This means intro videos are no longer limited to the legacy 32-bit Windows build, they can now be played on other platforms too. The update also adds support for the WebM videos introduced in the Half-Life 25th Anniversary Update. On Android, however, FFmpeg is not included in the builds in order to keep the engine lightweight.
+Xash3D FWGS now includes FFmpeg support which is finally merged into the master branch, replacing the old Video for Windows backend. This means intro videos are no longer limited to the legacy 32-bit Windows build, they can now be played on other platforms too. The update also adds support for the WebM videos introduced in the Half-Life 25th Anniversary Update. On Android, however, FFmpeg is not included in the builds in order to keep the engine lightweight.
 
 ## TUI Main Menu
 
