@@ -74,7 +74,7 @@ In the past, custom spraypaints didn’t work on GoldSrc servers. That changes n
 
 ## Mounting HD, Addon, Localization and Low Violence directories
 
-by [a1batross](https://github.com/a1batross)
+by [**a1batross**](https://github.com/a1batross)
 
 Now Xash can load content from the folders **gamedir_hd**, **gamedir_language**, **gamedir_addon**, and **gamedir_lv**.  
 **gamedir** means the name of the game directory, such as *valve*, *gearbox*, *cstrike*, etc.  
@@ -89,7 +89,7 @@ List of cvars for mounting directories:
 
 ## Luma texture support in Half-Life
 
-by [a1batross](https://github.com/a1batross)
+by [**a1batross**](https://github.com/a1batross)
 
 The engine now supports fullbright/luma textures, identified by the `~` prefix in the texture name.  
 It is disabled by default, but can be enabled by setting the ``r_allow_wad3_luma`` cvar to ``1``.
@@ -101,31 +101,31 @@ It is disabled by default, but can be enabled by setting the ``r_allow_wad3_luma
 
 ## Make Android build follow library naming scheme
 
-by [Flying with Gauss](https://github.com/FWGS)
+by [**Flying with Gauss**](https://github.com/FWGS)
 
 Android build of the engine now follows the unified library naming scheme used across Xash3D FWGS, including standardized prefixes, updated build scripts, and a more predictable native library lookup process.
 
 ## New iOS port
 
-by [ksagameng2](https://github.com/ksagameng2)
+by [**ksagameng2**](https://github.com/ksagameng2)
 
 A new iOS port of Xash3D FWGS is now available, featuring updated platform support and improved compatibility with modern iOS devices.
 
 ## Drop of legacy protocol
 
-by [Flying with Gauss](https://github.com/FWGS)
+by [**Flying with Gauss**](https://github.com/FWGS)
 
 As of December 1, 2025, support for Xash3D protocol 48 has been dropped, and players on the new engine will no longer be able to connect to servers hosted on the old engine.
 
 ## Deprecation and removal of linear/cubic audio upsampling
 
-by [a1batross](https://github.com/a1batross)
+by [**a1batross**](https://github.com/a1batross)
 
 In preparation for the upcoming mixer rewrite, upsampling filters have been moved out of scope, and `s_lerping` has been deprecated and removed. While the feature may return in the future, eliminating approximately 200 lines of legacy code of uncertain origin reduces complexity and improves maintainability.
 
 ## Fullscreen mode fixes
 
-by [a1batross](https://github.com/a1batross)
+by [**a1batross**](https://github.com/a1batross)
 
 In recent engine updates, several issues related to fullscreen mode have been fixed.  
 
@@ -136,7 +136,7 @@ Another issue caused the engine to get confused about the window state when exit
 
 ## Other minor changes
 
-by [Flying with Gauss](https://github.com/FWGS)
+by [**Flying with Gauss**](https://github.com/FWGS)
 
 * Fixed incorrect XashID generation on Windows due to uninitialized string ([51a9524](https://github.com/FWGS/xash3d-fwgs/commit/51a9524465e94ca406685b992ee87499269d95a6))
 * Improved compatibility with GoldSrc-based clients behavior (thanks [**@Garey27**](https://github.com/Garey27)) ([62a49d2](https://github.com/FWGS/xash3d-fwgs/commit/62a49d234f76c27ff1ea23c31635196ce34354c8))
