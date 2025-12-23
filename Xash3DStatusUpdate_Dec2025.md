@@ -123,6 +123,17 @@ by [a1batross](https://github.com/a1batross)
 
 In preparation for the upcoming mixer rewrite, upsampling filters have been moved out of scope, and `s_lerping` has been deprecated and removed. While the feature may return in the future, eliminating approximately 200 lines of legacy code of uncertain origin reduces complexity and improves maintainability.
 
+## Fullscreen mode fixes
+
+by [a1batross](https://github.com/a1batross)
+
+In recent engine updates, several issues related to fullscreen mode have been fixed.  
+
+Previously, when users enabled fullscreen, the game could actually remain in a window or start with an incorrect screen resolution. This issue was fixed in commit [4a16ca8](https://github.com/FWGS/xash3d-fwgs/commit/4a16ca8).  
+
+Another issue caused the engine to get confused about the window state when exiting fullscreen. After switching to windowed mode, the window could have an incorrect size or behave as if it was still maximized. This was fixed in commit [ad01be8](https://github.com/FWGS/xash3d-fwgs/commit/ad01be8).
+
+
 ## Other minor changes
 
 by [Flying with Gauss](https://github.com/FWGS)
